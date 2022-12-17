@@ -1,0 +1,94 @@
+
+.mid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    animation:myplan 5s infinite;
+}
+@keyframes myplan {
+    from{background-color: rgb(209, 209, 209);}
+    to{background-color: rgb(104, 7, 7);}
+}
+.mid .navbar{
+    margin:auto;
+}
+.mid .navbar ul{
+    display:flex;
+}
+.mid .navbar ul li{
+    list-style: none;
+    padding:1.5rem;
+}
+.mid .navbar ul li a{
+    text-decoration: none;
+    font-size:2rem;
+    color:white;
+}
+.mid .navbar ul li a:hover{
+    display:inlne-block;
+    background-color: black;
+    border:2px solid white;
+    border-radius: 20%;
+    padding:1.8rem;
+    transition: 0.3s;
+}
+.heading{
+    text-align: center;
+    padding: 3rem;
+    background-color: rgb(77, 30, 40);
+    color:white;
+}
+
+.order .row {
+    padding: 2rem;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,1);
+    background:#fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    border-radius:.5rem;
+ }
+ .order .row .image{
+    flex: 1 1 30rem;
+  }
+  .order .row form{
+    flex: 1 1 50rem;
+    padding: 1rem;
+  }
+  .order .row .image img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    border-radius:.5rem;
+    
+  }
+  .order .row form.inputBox{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+  }
+ .order .row form.inputBox input, .order .row form textarea{ 
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 1.7rem;
+  color: #333;
+  border: .1rem solid rgba(0,0,0,.3);
+  border-radius: .5rem;
+  width: 49%;
+ }
+ .order .row form textarea{
+    width: 100%;
+    resize: none;
+    height: 1.15rem;
+ }
+ .order .row form .btn{
+  background: none;
+  border:2px solid orangered;
+ }
+ .order .row form .btn:hover{
+  background:rgb(74, 11, 43) ;
+  color:white;
+ }
+
+
+

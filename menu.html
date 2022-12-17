@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link href="css/style2.css" rel="stylesheet">
+    <script src="js/jav.js"></script>
+    <style>
+        #imgs{
+            height:400px;
+            width:80%;
+            height:70vh;
+            margin:5% auto;
+            border:2px solid black;
+            background: url('img/men6.jpg');
+            background-size:cover;
+            animation:example 10s infinite;
+        }
+        @keyframes example {
+            10% {background-image: url('img/men2.jpg');background-size: 100% 100%}
+            25% {background-image: url('img/men3.jpg');background-size: 100% 100%}
+            50% {background-image: url('img/men4.jpg');background-size: 100% 100%}
+            70% {background-image: url('img/men5.jpg');background-size: 100% 100%}  
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div class="mid">  
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="review.html">Review</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1  class="heading" ><span style="color:rgb(189, 192, 184)">Explore </span><span style="color:rgb(179, 123, 20)">Deliciousness</span></h1>
+    </header>
+    <section>
+        <div id="imgs" >
+        </div>
+    </section>
+    <section>
+        <div class="options">
+            <button class="btnsop" id="fastfoods" onclick="showff()">Fast food</button>
+            <button class="btnsop" id="chineses" onclick="showch()">Chinese</button>
+            <button class="btnsop" id="italians" onclick="showit()">Italian</button>
+            <button class="btnsop" id="southindians"onclick="showsi()">South Indian</button>
+            <button class="btnsop" id="drinkss" onclick="showd()">Drinks</button>
+            <button class="btnsop" id="indians" onclick="showi()">Indian</button>
+        </div>
+        <div id="fastfood">
+            <table>
+                <tr>
+                    <td>Burger</td>
+                    <td>90</td>
+                    <td>veg</td>
+                    <td><button >add</button></td>
+                </tr>
+                <tr>
+                    <td>Burger special</td>
+                    <td>119</td>
+                    <td>Non Veg</td>
+                    <td><button >add</button></td>
+                </tr>
+                <tr>
+                    <td>Pizza veg loaded medium</td>
+                    <td>199</td>
+                    <td>Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                <tr>
+                    <td>Pizza onion and capsicum</td>
+                    <td>129</td>
+                    <td>Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                <tr>
+                    <td>Pizza nonveg topping</td>
+                    <td>159</td>
+                    <td>Non veg</td>
+                    <td><button>add</button></td>
+                </tr>
+
+            </table>
+        </div>
+        <div id="chinese">
+            <table>
+                <tr>
+                    <td>Spring roll</td>
+                    <td>80</td>
+                    <td>Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                <tr>
+                    <td>Chowmein</td>
+                    <td>80</td>
+                    <td>Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                <tr>
+                    <td>Dumplings 8 pieces</td>
+                    <td>120</td>
+                    <td>Non Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                <tr>
+                    <td>Tofu salad</td>
+                    <td>199</td>
+                    <td>Non Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                <tr>
+                    <td>Chicken Soup</td>
+                    <td>249</td>
+                    <td>Non Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+
+            </table>
+        </div>
+        <div id="italian">
+            <table>
+                <tr>
+                    <td>Truffle</td>
+                    <td>80</td>
+                    <td>Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                <tr>
+                    <td>Pasta</td>
+                    <td>100</td>
+                    <td>Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                <tr>
+                    <td>Arancini(fried rice ball)</td>
+                    <td>149</td>
+                    <td>Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                <tr>
+                    <td>Focassia</td>
+                    <td>139</td>
+                    <td>Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                <tr>
+                    <td>Lasagna</td>
+                    <td>129</td>
+                    <td>Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+            </table>
+
+        </div>
+        <div id="southindian">
+            <table>
+                <tr>
+                    <td>Idli sambhar</td>
+                    <td>120</td>
+                    <td>Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                <tr>
+                    <td>Masala Dosa</td>
+                    <td>130</td>
+                    <td>Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                <tr>
+                    <td>Rasam</td>
+                    <td>119</td>
+                    <td>Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                
+            </table>
+        </div>
+        <div id="drinks">
+            <table>
+                <tr>
+                    <td>Strawberry Shake</td>
+                    <td>100</td>
+                    <td>Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                <tr>
+                    <td>Mango Shake</td>
+                    <td>100</td>
+                    <td>Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                <tr>
+                    <td>Cold Coffee</td>
+                    <td>100</td>
+                    <td>Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                <tr>
+                    <td>Chocolate Shake</td>
+                    <td>100</td>
+                    <td>Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+            </table>
+
+        </div>
+        <div id="indian">
+            <table>
+                <tr>
+                    <td>Chicken Curry</td>
+                    <td>250</td>
+                    <td>Non Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                <tr>
+                    <td>Fish Curry</td>
+                    <td>349</td>
+                    <td>Non Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+                <tr>
+                    <td>Rice</td>
+                    <td>100</td>
+                    <td>Veg</td>
+                    <td><button>add</button></td>
+                </tr>
+            </table>
+
+        </div>
+    </section>
+      
+</body>
+</html>

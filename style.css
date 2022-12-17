@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+
+
+/*CSS VARIABLES*/
+:root{
+    --header-height:59px;
+}
+body {
+    margin:0;
+    overflow: scroll;
+    height:100%;
+}
+
+/*Header styling*/
+.mid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    animation:myplan 5s infinite;
+}
+@keyframes myplan {
+    from{background-color: rgb(209, 209, 209);}
+    to{background-color: rgb(104, 7, 7);}
+}
+.mid .navbar{
+    margin:auto;
+}
+.mid .navbar ul{
+    display:flex;
+}
+.mid .navbar ul li{
+    list-style: none;
+    padding:1.5rem;
+}
+.mid .navbar ul li a{
+    text-decoration: none;
+    font-size:2rem;
+    color:white;
+}
+.mid .navbar ul li a:hover{
+    display:inlne-block;
+    background-color: black;
+    border:2px solid white;
+    border-radius: 20%;
+    padding:1.8rem;
+    transition: 0.3s;
+}
+
+/**/
+#setimg{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    font-size: 3.2rem;
+    
+}
+#setimg span{
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    display: inline-block;
+    margin:8px;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+
+#pmen,#porder,#preview{
+    display:flex;
+    flex-wrap: wrap;
+    margin:auto auto;
+    width:50%;
+    font-size:2.8rem;
+}
+.buttons{
+    width:20%;
+    margin:auto 60%;
+}
+.buttons button{
+    cursor:pointer;
+    border-radius: 25%;
+    font-family: 'Shalimar';
+    font-weight: bolder;
+    font-size: 6rem;
+    background-color: rgb(125, 18, 18);
+    color:white;
+}
+.buttons a{
+    text-decoration: none;
+    color:white;
+}
+.buttons a:visited{
+    color:white;
+}
+.buttons button:hover{
+    background-color: black;
+    font-size: 6vw;
+}
+  
+  .morphing {
+    height:60vh;
+    position: relative;
+    font-size: 7vw;
+    background-color: #000;
+    color: #fff;
+    filter: contrast(25) blur(1px);
+  }
+  
+  .word {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    animation: word 16s infinite ease-in-out;
+  }
+    :nth-child(1) {
+        animation-delay: -16s;
+   }
+    :nth-child(2) {
+        animation-delay: -14s;
+   }
+    :nth-child(3) {
+        animation-delay: -12s;
+   }
+    :nth-child(4) {
+        animation-delay: -10s;
+   }
+    :nth-child(5) {
+        animation-delay: -8s;
+   }
+    :nth-child(6) {
+        animation-delay: -6s;
+   }
+    :nth-child(7) {
+        animation-delay: -4s;
+   }
+  
+    @keyframes word {
+      0%, 5%, 100% { filter: blur(0px); opacity: 1; }        
+      20%, 80% { filter: blur(1em); opacity: 0; }        
+    }
+  
+
+
+.foot{
+    height:40vh;
+    background-color: black;
+    color:white;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.foot #imgs li img{
+    height:6vh;
+}
+.foot #imgs li{
+    display:inline;
+}
+#logoin{
+    width:8%;
+    margin-left:3.5%;
+}

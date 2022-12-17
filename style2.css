@@ -1,0 +1,74 @@
+
+.mid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    animation:myplan 5s infinite;
+}
+@keyframes myplan {
+    from{background-color: rgb(209, 209, 209);}
+    to{background-color: rgb(104, 7, 7);}
+}
+.mid .navbar{
+    margin:auto;
+}
+.mid .navbar ul{
+    display:flex;
+}
+.mid .navbar ul li{
+    list-style: none;
+    padding:1.5rem;
+}
+.mid .navbar ul li a{
+    text-decoration: none;
+    font-size:2rem;
+    color:white;
+}
+.mid .navbar ul li a:hover{
+    display:inlne-block;
+    background-color: black;
+    border-radius: 20%;
+    padding:1.8rem;
+    transition: 0.3s;
+}
+.heading{
+    text-align: center;
+    padding: 3rem;
+    background-color: rgb(77, 30, 40);
+    
+}
+
+.options{
+    display:flex;
+    margin: auto;
+    width:50%;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.btnsop{
+    font-size:2.3rem;
+    border:2px solid blue;
+    background-color: rgb(158, 158, 158);
+}
+.btnsop:hover{
+    cursor:pointer;
+    color:white;
+    background-color: rgb(137, 25, 25);
+}
+
+#fastfood , #chinese , #mexican, #italian, #southindian, #indian, #drinks{
+    width:60vw;
+    margin:4%;
+    display:none;
+    background-color: black;
+    color:white;
+    font-size:2.5rem;
+}
+table td button{
+    font-family:'Shalimar';
+    font-weight:bold;
+    font-size:2rem;
+}
+td{
+    padding:0.6vw;
+}

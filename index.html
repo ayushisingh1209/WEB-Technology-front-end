@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food For Foodies</title>
+    <link rel="stylesheet" href="css/style.css"  >
+    <script src="js/jav.js"></script>
+    <style>
+        #setimg{
+            height:60vh;
+            width:85%;
+            margin: auto;
+            margin-top: 2%;
+            border:2px solid rgb(5, 55, 5);
+            background-image: url('img/sav5.jpg');
+            opacity: 120%;
+            background-size: 100% 100%;
+            animation:change 8s linear infinite; 
+            box-shadow:0.5rem 1rem rgba(0, 0, 0, 0.692);   
+        }
+        /*sav5 is good in black
+        /*sav4 is italian
+        sav3 is white white delete
+        sav2 is again black and white delte
+        sav 1 is just like italian wala delete
+        */
+        @keyframes change {
+            20% {background-image: url('img/pexels-kei-scampa-9882299.jpg');opacity: 120%;background-size: 100% 100%;color:black;}
+            40% {background-image: url('img/pexels-nikhil-bali-13062513.jpg');opacity: 120%;background-size: 100% 100%;color:white;}
+            60% {background-image: url('img/pexels-nataliya-vaitkevich-4815267.jpg');opacity: 120%;background-size: 100% 100%;color:black;}
+            80% {background-image: url('img/pexels-helena-lopes-696271.jpg');opacity: 120%;background-size: 100% 100%;color:white;}
+        }
+        #menintro{
+            width:85%;
+            margin: auto;
+            margin-top:2%;
+            margin-bottom: 2%;
+            height:60vh;
+            background-image: url('img/pexels-valeria-boltneva-1639565.jpg');
+            background-size:100% 100%;
+            box-shadow:0.5rem 1rem rgba(0, 0, 0, 0.692);
+        }
+        #orderintro{
+            width:85%;
+            margin: auto;
+            margin-top:2%;
+            margin-bottom: 2%;
+            height:60vh;
+            background-image: url('img/pexels-nikhil-bali-13062513.jpg');
+            background-size:100% 100%;
+            box-shadow:0.5rem 1rem rgba(0, 0, 0, 0.692);
+        }
+        #reviewintro{
+            width:85%;
+            margin: auto;
+            margin-top:2%;
+            margin-bottom: 2%;
+            height:60vh;
+            background-image: url('img/review.jpg');
+            background-size:100% 100%;
+            box-shadow:0.5rem 1rem rgba(0, 0, 0, 0.692);
+        }
+    </style>
+
+
+    <script>
+        window.alert("Hi check out the latest offers");
+    </script>
+</head>
+<body>
+    <header>
+        <div class="mid">  
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="review.html">Review</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div id="setimg">
+            <span style="--i:1">Need</span>
+            <span style="--i:2">taste</span>
+            <span style="--i:3">in</span>
+            <span style="--i:4">life</span>
+            <span style="--i:5">get</span>
+            <span style="--i:6">it</span>
+            <span style="--i:7">in</span>
+            <span style="--i:8">the</span>
+            <span style="--i:9">first</span>
+            <span style="--i:10">bite</span>
+        </div>
+    </section>
+
+    <section>
+        <div id="menintro">
+            <div id="pmen">
+                see the top class menu including chinese,italian and much more
+            </div>
+            <div class="buttons">
+                <button><a href="menu.html">Menu</a></button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="orderintro">
+            <div id="porder" style="color:white">
+                You are just one click away of licking fingers
+                click here to enjoy
+            </div>
+            <div class="buttons">
+                <button><a href="order.html">Order</a></button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="reviewintro">
+            <div id="preview">
+                wanna check out the opionions read out the reviews first
+            </div>
+            <div class="buttons">
+                <button><a href="review.html">Review</a></button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="morphing">
+            <div class="word">laughter</div>
+            <div class="word">is</div>
+            <div class="word">brightest in place</div>
+            <div class="word">where</div>
+            <div class="word">food</div>
+            <div class="word">is</div>
+            <div class="word">good</div>
+          </div>
+    </section>
+    <section>
+        <div class="foot">
+            <p>This site is fully authenticated and authorised by the food panel code of India.
+        <ul id="imgs">Contact Us On 
+            <li><a href="#"><img src="img/insta.webp" alt="insta img"></a></li>
+            <li><a href="#"><img src="img/fac.webp" alt="facebook img"></a></li>
+            <li><a href="#"><img src="img/twitter.png" alt="twitter img"></a></li>
+        </ul>
+    </p>
+        <img src="img/logo1.png" alt="img" id="logoin">
+        Resto 
+            <p>
+                Call us on <img src="img/call.jpg" alt="img" id="callimg" width='30px'> 110-454545
+                <br>
+                All rights are reserved. Copyright Jubliant Foodworks ltd.
+            </p>
+        </div>
+    </section>
+    
+</body>
